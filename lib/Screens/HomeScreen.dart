@@ -71,9 +71,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Stack(children: [
-                      Center(
+                      const Center(
                         child: CircleAvatar(
-                          radius: 45,
+                          radius: 50,
                           backgroundColor: Colors.white,
                           backgroundImage: AssetImage(
                             'Assets/Images/create_logo.png',
@@ -86,9 +86,15 @@ class _HomeScreenState extends State<HomeScreen> {
                           height: 40,
                           width: double.infinity,
                           decoration: BoxDecoration(
-                              color: Color(0xff5a52a5),
+                              color: const Color(0xff5a52a5),
                               borderRadius: BorderRadius.circular(10)),
-                          child: Center(child: Text("Create",style: TextStyle(color: Colors.white,fontSize: 18),)),
+                          child: const Center(
+                            child: Text(
+                              "Create",
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 18),
+                            ),
+                          ),
                         ),
                       )
                     ]),
@@ -101,9 +107,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Stack(children: [
-                      Center(
+                      const Center(
                         child: CircleAvatar(
-                          radius: 45,
+                          radius: 50,
                           backgroundColor: Colors.white,
                           backgroundImage: AssetImage(
                             'Assets/Images/download_logo.png',
@@ -116,9 +122,14 @@ class _HomeScreenState extends State<HomeScreen> {
                           height: 40,
                           width: double.infinity,
                           decoration: BoxDecoration(
-                              color: Color(0xff5a52a5),
-                              borderRadius: BorderRadius.circular(10)),
-                          child: Center(child: Text("Downloads",style: TextStyle(color: Colors.white,fontSize: 18),)),
+                            color: const Color(0xff5a52a5),
+                            borderRadius: BorderRadius.circular(10),
+                          ),
+                          child: const Center(
+                              child: Text(
+                            "Downloads",
+                            style: TextStyle(color: Colors.white, fontSize: 18),
+                          )),
                         ),
                       )
                     ]),
