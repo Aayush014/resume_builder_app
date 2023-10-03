@@ -64,12 +64,12 @@ class _InfoScreenState extends State<InfoScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
-                                Icon(
+                                const Icon(
                                   Icons.person,
                                   size: 30,
                                   color: Color(0xff52a559),
                                 ),
-                                Text(
+                                const Text(
                                   "Personal",
                                   style: TextStyle(
                                       color: Color(0xff52a559),
@@ -83,7 +83,7 @@ class _InfoScreenState extends State<InfoScreen> {
                                     decoration: BoxDecoration(
                                         color: Colors.green.shade200,
                                         shape: BoxShape.circle),
-                                    child: Icon(
+                                    child: const Icon(
                                       Icons.navigate_next,
                                       size: 20,
                                       color: Color(0xff52a559),
@@ -102,12 +102,12 @@ class _InfoScreenState extends State<InfoScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
-                                Icon(
+                                const Icon(
                                   Icons.school_rounded,
                                   size: 30,
                                   color: Color(0xff52a559),
                                 ),
-                                Text(
+                                const Text(
                                   "Education",
                                   style: TextStyle(
                                       color: Color(0xff52a559),
@@ -121,7 +121,7 @@ class _InfoScreenState extends State<InfoScreen> {
                                     decoration: BoxDecoration(
                                         color: Colors.green.shade200,
                                         shape: BoxShape.circle),
-                                    child: Icon(
+                                    child: const Icon(
                                       Icons.navigate_next,
                                       size: 20,
                                       color: Color(0xff52a559),
@@ -140,12 +140,12 @@ class _InfoScreenState extends State<InfoScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
-                                Icon(
+                                const Icon(
                                   Icons.work_rounded,
                                   size: 30,
                                   color: Color(0xff52a559),
                                 ),
-                                Text(
+                                const Text(
                                   "Experience",
                                   style: TextStyle(
                                       color: Color(0xff52a559),
@@ -159,7 +159,7 @@ class _InfoScreenState extends State<InfoScreen> {
                                     decoration: BoxDecoration(
                                         color: Colors.green.shade200,
                                         shape: BoxShape.circle),
-                                    child: Icon(
+                                    child: const Icon(
                                       Icons.navigate_next,
                                       size: 20,
                                       color: Color(0xff52a559),
@@ -183,12 +183,12 @@ class _InfoScreenState extends State<InfoScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
-                                Icon(
+                                const Icon(
                                   Icons.supervised_user_circle,
                                   size: 30,
                                   color: Color(0xff52a559),
                                 ),
-                                Text(
+                                const Text(
                                   "Skill",
                                   style: TextStyle(
                                       color: Color(0xff52a559),
@@ -202,7 +202,7 @@ class _InfoScreenState extends State<InfoScreen> {
                                     decoration: BoxDecoration(
                                         color: Colors.green.shade200,
                                         shape: BoxShape.circle),
-                                    child: Icon(
+                                    child: const Icon(
                                       Icons.navigate_next,
                                       size: 20,
                                       color: Color(0xff52a559),
@@ -221,12 +221,12 @@ class _InfoScreenState extends State<InfoScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
-                                Icon(
+                                const Icon(
                                   Icons.edit,
                                   size: 30,
                                   color: Color(0xff52a559),
                                 ),
-                                Text(
+                                const Text(
                                   "Objective",
                                   style: TextStyle(
                                       color: Color(0xff52a559),
@@ -240,7 +240,7 @@ class _InfoScreenState extends State<InfoScreen> {
                                     decoration: BoxDecoration(
                                         color: Colors.green.shade200,
                                         shape: BoxShape.circle),
-                                    child: Icon(
+                                    child: const Icon(
                                       Icons.navigate_next,
                                       size: 20,
                                       color: Color(0xff52a559),
@@ -259,12 +259,12 @@ class _InfoScreenState extends State<InfoScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
-                                Icon(
+                                const Icon(
                                   Icons.group,
                                   size: 30,
                                   color: Color(0xff52a559),
                                 ),
-                                Text(
+                                const Text(
                                   "Reference",
                                   style: TextStyle(
                                       color: Color(0xff52a559),
@@ -278,7 +278,7 @@ class _InfoScreenState extends State<InfoScreen> {
                                     decoration: BoxDecoration(
                                         color: Colors.green.shade200,
                                         shape: BoxShape.circle),
-                                    child: Icon(
+                                    child: const Icon(
                                       Icons.navigate_next,
                                       size: 20,
                                       color: Color(0xff52a559),
@@ -327,12 +327,12 @@ class _InfoScreenState extends State<InfoScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
-                                Icon(
+                                const Icon(
                                   Icons.person,
                                   size: 30,
                                   color: Color(0xff52a559),
                                 ),
-                                Text(
+                                const Text(
                                   "Personal",
                                   style: TextStyle(
                                       color: Color(0xff52a559),
@@ -346,7 +346,7 @@ class _InfoScreenState extends State<InfoScreen> {
                                     decoration: BoxDecoration(
                                         color: Colors.green.shade200,
                                         shape: BoxShape.circle),
-                                    child: Icon(
+                                    child: const Icon(
                                       Icons.navigate_next,
                                       size: 20,
                                       color: Color(0xff52a559),
@@ -365,12 +365,12 @@ class _InfoScreenState extends State<InfoScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
-                                Icon(
+                                const Icon(
                                   Icons.person,
                                   size: 30,
                                   color: Color(0xff52a559),
                                 ),
-                                Text(
+                                const Text(
                                   "Personal",
                                   style: TextStyle(
                                       color: Color(0xff52a559),
@@ -384,7 +384,7 @@ class _InfoScreenState extends State<InfoScreen> {
                                     decoration: BoxDecoration(
                                         color: Colors.green.shade200,
                                         shape: BoxShape.circle),
-                                    child: Icon(
+                                    child: const Icon(
                                       Icons.navigate_next,
                                       size: 20,
                                       color: Color(0xff52a559),
@@ -403,12 +403,12 @@ class _InfoScreenState extends State<InfoScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
-                                Icon(
+                                const Icon(
                                   Icons.person,
                                   size: 30,
                                   color: Color(0xff52a559),
                                 ),
-                                Text(
+                                const Text(
                                   "Personal",
                                   style: TextStyle(
                                       color: Color(0xff52a559),
@@ -422,7 +422,7 @@ class _InfoScreenState extends State<InfoScreen> {
                                     decoration: BoxDecoration(
                                         color: Colors.green.shade200,
                                         shape: BoxShape.circle),
-                                    child: Icon(
+                                    child: const Icon(
                                       Icons.navigate_next,
                                       size: 20,
                                       color: Color(0xff52a559),
@@ -446,12 +446,12 @@ class _InfoScreenState extends State<InfoScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
-                                Icon(
+                                const Icon(
                                   Icons.person,
                                   size: 30,
                                   color: Color(0xff52a559),
                                 ),
-                                Text(
+                                const Text(
                                   "Personal",
                                   style: TextStyle(
                                       color: Color(0xff52a559),
@@ -465,7 +465,7 @@ class _InfoScreenState extends State<InfoScreen> {
                                     decoration: BoxDecoration(
                                         color: Colors.green.shade200,
                                         shape: BoxShape.circle),
-                                    child: Icon(
+                                    child: const Icon(
                                       Icons.navigate_next,
                                       size: 20,
                                       color: Color(0xff52a559),
@@ -484,12 +484,12 @@ class _InfoScreenState extends State<InfoScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
-                                Icon(
+                                const Icon(
                                   Icons.person,
                                   size: 30,
                                   color: Color(0xff52a559),
                                 ),
-                                Text(
+                                const Text(
                                   "Personal",
                                   style: TextStyle(
                                       color: Color(0xff52a559),
@@ -503,7 +503,7 @@ class _InfoScreenState extends State<InfoScreen> {
                                     decoration: BoxDecoration(
                                         color: Colors.green.shade200,
                                         shape: BoxShape.circle),
-                                    child: Icon(
+                                    child: const Icon(
                                       Icons.navigate_next,
                                       size: 20,
                                       color: Color(0xff52a559),
@@ -522,12 +522,12 @@ class _InfoScreenState extends State<InfoScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
-                                Icon(
+                                const Icon(
                                   Icons.person,
                                   size: 30,
                                   color: Color(0xff52a559),
                                 ),
-                                Text(
+                                const Text(
                                   "Personal",
                                   style: TextStyle(
                                       color: Color(0xff52a559),
@@ -541,7 +541,7 @@ class _InfoScreenState extends State<InfoScreen> {
                                     decoration: BoxDecoration(
                                         color: Colors.green.shade200,
                                         shape: BoxShape.circle),
-                                    child: Icon(
+                                    child: const Icon(
                                       Icons.navigate_next,
                                       size: 20,
                                       color: Color(0xff52a559),
