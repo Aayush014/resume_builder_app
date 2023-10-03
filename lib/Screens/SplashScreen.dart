@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:resume_builder_app/Screens/HomeScreen.dart';
+import 'package:resume_builder_app/Screens/logInScreen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -19,7 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
       () {
         Navigator.of(context).pushReplacement(
           MaterialPageRoute(
-            builder: (context) => HomeScreen(),
+            builder: (context) => LoginScreen(),
           ),
         );
       },
@@ -41,7 +42,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     borderRadius: BorderRadius.circular(20),
                     image: const DecorationImage(
                         image: AssetImage('Assets/Images/logo.png'),
-                        fit: BoxFit.cover)),
+                        fit: BoxFit.none)),
               ),
             ),
             const SizedBox(
@@ -50,7 +51,7 @@ class _SplashScreenState extends State<SplashScreen> {
             const Text(
               "Resume Maker - CV Creator",
               style: TextStyle(
-                  color: Color(0xff5a52a5),
+                  color: Color(0xff52a559),
                   fontSize: 25,
                   fontWeight: FontWeight.w700,
                   letterSpacing: 1.5),
@@ -61,8 +62,8 @@ class _SplashScreenState extends State<SplashScreen> {
             Container(
               width: 300,
               child: LinearProgressIndicator(
-                backgroundColor: Colors.purpleAccent.shade100,
-                color: const Color(0xff5a52a5),
+                backgroundColor: Colors.green.shade200,
+                color: const Color(0xff52a559),
               ),
             ),
             const SizedBox(
@@ -72,7 +73,7 @@ class _SplashScreenState extends State<SplashScreen> {
               "Wait for better experience",
               style: TextStyle(
                   fontSize: 18,
-                  color: Color(0xff5a52a5),
+                  color: Color(0xff52a559),
                   fontWeight: FontWeight.w500),
             )
           ],

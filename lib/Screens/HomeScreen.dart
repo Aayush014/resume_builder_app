@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
               const Text(
                 "Create CV in Minutes",
                 style: TextStyle(
-                  color: Color(0xff5a52a5),
+                  color: Color(0xff52a559),
                   fontSize: 30,
                 ),
               ),
@@ -33,25 +33,25 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   CircleAvatar(
                     radius: 25,
-                    backgroundColor: Color(0xff5a52a5),
+                    backgroundColor: Color(0xff52a559),
                     child: Icon(Icons.share_rounded,
                         size: 30, color: Colors.white),
                   ),
                   CircleAvatar(
                     radius: 25,
-                    backgroundColor: Color(0xff5a52a5),
+                    backgroundColor: Color(0xff52a559),
                     child:
                         Icon(Icons.star_rounded, size: 30, color: Colors.white),
                   ),
                   CircleAvatar(
                     radius: 25,
-                    backgroundColor: Color(0xff5a52a5),
+                    backgroundColor: Color(0xff52a559),
                     child: Icon(Icons.shield_outlined,
                         size: 30, color: Colors.white),
                   ),
                   CircleAvatar(
                     radius: 25,
-                    backgroundColor: Color(0xff5a52a5),
+                    backgroundColor: Color(0xff52a559),
                     child: Icon(Icons.g_translate_rounded,
                         size: 30, color: Colors.white),
                   ),
@@ -67,7 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     height: 170,
                     width: 170,
                     decoration: BoxDecoration(
-                      color: Colors.purple.shade100,
+                      color: Colors.green.shade200,
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Stack(children: [
@@ -82,17 +82,20 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       Align(
                         alignment: Alignment.bottomCenter,
-                        child: Container(
-                          height: 40,
-                          width: double.infinity,
-                          decoration: BoxDecoration(
-                              color: const Color(0xff5a52a5),
-                              borderRadius: BorderRadius.circular(10)),
-                          child: const Center(
-                            child: Text(
-                              "Create",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 18),
+                        child: InkWell(
+                          onTap: () => Navigator.pushNamed(context, 'info'),
+                          child: Container(
+                            height: 40,
+                            width: double.infinity,
+                            decoration: BoxDecoration(
+                                color: const Color(0xff52a559),
+                                borderRadius: BorderRadius.circular(10)),
+                            child: const Center(
+                              child: Text(
+                                "Create",
+                                style:
+                                    TextStyle(color: Colors.white, fontSize: 18),
+                              ),
                             ),
                           ),
                         ),
@@ -103,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     height: 170,
                     width: 170,
                     decoration: BoxDecoration(
-                      color: Colors.purple.shade100,
+                      color: Colors.green.shade200,
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Stack(children: [
@@ -122,7 +125,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           height: 40,
                           width: double.infinity,
                           decoration: BoxDecoration(
-                            color: const Color(0xff5a52a5),
+                            color: const Color(0xff52a559),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           child: const Center(
